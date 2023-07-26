@@ -16,6 +16,9 @@ repositories {
 dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter:5.9.0'
     testImplementation 'com.codeborne:selenide:6.13.0' // библиотека com.codeborne:selenide используется при построении проекта с использованием Selenide
+    testImplementation 'com.github.javafaker:javafaker:1.0.1' //библиотека Faker
+    testImplementation 'org.projectlombok:lombok:1.18.26'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.24'
 }
 
 test {
